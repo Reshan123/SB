@@ -11,13 +11,13 @@
 .Header{
     position: relative;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: url(../../images/headerBackground.png);
     background-size: cover;
 }
 .Header .HeaderText{
     margin: auto;
-    width: 59%;
+    width: 69%;
     height: 55vh;
     display: flex;
     flex-direction: column;
@@ -71,4 +71,70 @@
     background-color: white;
     color:#00629B;
     border-radius: 5px;
+}
+
+.WelcomeSection{
+    height: 100vh;
+    width: 100%;
+    background: url(../../images/Welcome.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomeSection .WelcomeSectionContent{
+    width: 80vw;
+    height: 75vh;
+    background: #ffffff82;
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextHeading{
+    font-size: 2rem;
+    width: 85%;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextPara{
+    width: 80%;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton{
+    align-self: flex-start;
+    margin-left: 55px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton button{
+    padding: 15px 25px;
+    background-color: #FFA300;
+    color: #000;
+    border: none;
+    border-radius: 8px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionImage{
+    height: 110%;
+    width: 55%;
+    background: url(../../images/welcomeTextRobo.png) no-repeat;
+    background-size: cover;
+    background-position: left -550px center;
 }
