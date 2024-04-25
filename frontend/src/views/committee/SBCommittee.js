@@ -1,9 +1,9 @@
-import FrameComponent1 from "../components/FrameComponent1";
-import ExecutiveCommittee from "../components/ExecutiveCommittee";
-import EditorialTeam from "../components/EditorialTeam";
-import PublicityTeam from "../components/PublicityTeam";
-import MembershipDevTeam from "../components/MembershipDevTeam";
-import FinanceTeam from "../components/FinanceTeam";
+import FrameComponent1 from "../committee/FrameComponent1";
+import ExecutiveCommittee from "../committee/ExecutiveCommittee";
+import EditorialTeam from "../committee/EditorialTeam";
+import PublicityTeam from "../committee/PublicityTeam";
+import MembershipDevTeam from "../committee/MembershipDevTeam";
+import FinanceTeam from "../committee/FinanceTeam";
 import "./SBCommittee.css";
 
 const SBCommittee = () => {
