@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Home from './views/home/home';
 import Navbar from './views/navbar/navbar';
 import Contactus from './views/contactus/contactus';
-
+import { About } from './views/Aboutus/About';
+import { Join } from './views/Joinus/Join';
 import Footer from './views/Footer/Footer'
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<Contactus />} />
+        <Route path='/join' element={<Join />} />
+        <Route path='/about' element={<About />} />
       
       </Routes>
       <Footer />
