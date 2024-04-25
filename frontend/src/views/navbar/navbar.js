@@ -14,11 +14,12 @@ const Navbar = ({home , aboutus , communityDetails , events , contactUs , galler
     return ( 
         <nav>
             <div className="navLogo"><img src={Logo} alt="" /></div>
-            <div className="navMiddleNav">
-                <div className="navMiddleNavLink"><NavLink to={ home }>Home</NavLink></div>
-                <div className="navMiddleNavLink"><NavLink to={ aboutus }>About Us</NavLink></div>
-                <div className="navMiddleNavLink"><NavLink to={ contactUs }>Contact Us</NavLink></div>
-                <div className="navMiddleNavLink"><NavLink to={ gallery }>Gallery</NavLink></div>
+            <div className="navLinksContainer">
+                <div className="navLink"><NavLink to={ home }>Home</NavLink></div>
+                <div className="navLink"><NavLink to={ aboutus }>About Us</NavLink></div>
+                <div className="navLink"><NavLink to={ contactUs }>Contact Us</NavLink></div>
+                <div className="navLink"><NavLink to={ gallery }>Gallery</NavLink></div>
+                <div className="navLink"><NavLink to={ gallery }>Log In / Sign Up</NavLink></div>
             </div>
             <div className="navCollapsedNav" id='navBar'>
                 <div className="navCollapsedNavButton" onClick={buttonClick}>
