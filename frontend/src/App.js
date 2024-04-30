@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Home from './views/home/home';
+import SBCommittee from './views/committee/SBCommittee';
 import Navbar from './views/navbar/navbar';
 import Contactus from './views/contactus/contactus';
 import { About } from './views/Aboutus/About';
@@ -18,6 +18,7 @@ function App() {
         <Route path="/contact-us" element={<Contactus />} />
         <Route path='/join' element={<Join />} />
         <Route path='/about' element={<About />} />
+        <Route path="/" element={<SBCommittee />} />
       
       </Routes>
       <Footer />
