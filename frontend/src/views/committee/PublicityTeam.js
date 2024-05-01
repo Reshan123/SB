@@ -30,7 +30,7 @@ const PublicityTeam = () => {
                 className="lead-pic-icon1"
                 loading="eager"
                 alt=""
-                src="/lead-pic.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="niumi-halmillawewa-leader-container">
@@ -45,7 +45,7 @@ const PublicityTeam = () => {
                 className="member-icon3"
                 loading="eager"
                 alt=""
-                src="/member.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="anjula-hirimuthugoda-member-container">
@@ -60,7 +60,7 @@ const PublicityTeam = () => {
                 className="member-icon4"
                 loading="eager"
                 alt=""
-                src="/member.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="mithila-samarawickrama-member-container">

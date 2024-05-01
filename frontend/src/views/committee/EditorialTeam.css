@@ -254,8 +254,9 @@
 .editorialteamframe,
 .editorialteamframe-wrapper {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+ 
 }
 .editorialteamframe {
   width: 75rem;

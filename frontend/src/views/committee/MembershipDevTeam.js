@@ -28,7 +28,7 @@ const MembershipDevTeam = () => {
                   className="lead-pic-icon2"
                   loading="eager"
                   alt=""
-                  src="/lead-pic.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
               <b className="mahdy-abdullah-nawfar-container">
@@ -43,7 +43,7 @@ const MembershipDevTeam = () => {
                   className="member-icon5"
                   loading="eager"
                   alt=""
-                  src="/member.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
               <b className="thiruni-bandara-member-container">
@@ -58,7 +58,7 @@ const MembershipDevTeam = () => {
                   className="member-icon6"
                   loading="eager"
                   alt=""
-                  src="/member.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
               <b className="kavindri-perera-member-container">

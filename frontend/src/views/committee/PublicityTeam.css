@@ -237,7 +237,10 @@
   gap: 3.88rem;
   min-height: 43.81rem;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   font-size: 9.38rem;
+  
   color: rgba(255, 255, 255, 0.05);
   font-family: Montserrat;
 }

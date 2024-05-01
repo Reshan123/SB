@@ -27,7 +27,7 @@ const MEMBERSHIP = () => {
                   className="f-r-a-m-e-inner"
                   loading="eager"
                   alt=""
-                  src="/group-1000001807.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
               <div className="t-e-x-t">
@@ -46,7 +46,7 @@ const MEMBERSHIP = () => {
                   className="vicechairpersonframe-item"
                   loading="eager"
                   alt=""
-                  src="/group-1000001807.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
             </div>
@@ -57,7 +57,7 @@ const MEMBERSHIP = () => {
                   className="frame-inner"
                   loading="eager"
                   alt=""
-                  src="/group-1000001807.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
               </div>
               <div className="rectangle-container">
@@ -66,7 +66,7 @@ const MEMBERSHIP = () => {
                   className="group-icon"
                   loading="eager"
                   alt=""
-                  src="/group-1000001807.svg"
+                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
                 />
                 <h3 className="devni-dharmasooriya-secretary-container">
                   <p className="devni-dharmasooriya">Devni Dharmasooriya</p>

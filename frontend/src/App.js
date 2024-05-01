@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import SBCommittee from './views/committee/SBCommittee';
 import Navbar from './views/navbar/navbar';
-
-import Footer from './views/Footer/Footer'
+import Home from './views/home/home';
+import Footer from './views/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<SBCommittee />} />
+        <Route path="/home" element={<Home />} />
       
       </Routes>
       <Footer />
