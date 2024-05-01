@@ -467,10 +467,10 @@
     box-sizing: border-box;
     
   }.frame-inner{
-    padding-left: 38px;
-    padding-right: 38px;
+    bottom: 9rem;
     width: 15rem;
-    bottom: 8rem;
+    height: 15rem;
+    top: -162px;
   }
   .f-r-a-m-e2 {
     gap: 7.81rem;
@@ -517,10 +517,14 @@
   }
   .vicechairpersonframe-item{
     bottom: 9rem;
-    width: 240px;
+    width: 15rem;
+    height: 15rem;
+    top: -162px;
   }.group-icon{
-    width: 240px;
-    bottom: 0.65rem;
+    bottom: 9rem;
+    width: 15rem;
+    height: 15rem;
+    top: 0;
   }
   .groupframe-parent {
     left: 0;
@@ -534,7 +538,9 @@
   }
   .f-r-a-m-e-inner {
     width: 15rem;
+    height: 15rem;
     bottom: 2rem;
+    top: 0;
 
   }
 }
