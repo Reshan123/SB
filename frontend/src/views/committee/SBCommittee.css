@@ -197,7 +197,7 @@
 .frame-group,
 .sub-committees-wrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 .sub-committees-wrapper {
@@ -213,6 +213,8 @@
   flex-direction: column;
   gap: 10.19rem;
   flex-shrink: 0;
+  justify-content: center;
+  margin: 0 auto;
 }
 .frame-section,
 .sb-committee {
@@ -224,7 +226,6 @@
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 0 7.44rem;
   max-width: 100%;
   flex-shrink: 0;
 }
