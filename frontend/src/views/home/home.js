@@ -31,7 +31,7 @@ const Home = () => {
                 </div>    
             </div>
             <div className="Chapters">
-                <div className="ChaptersTitle">Chapters</div>
+                <div className="ChaptersTitle">IEEE Student Branch Chapters</div>
                 <div className="ChaptersContainer">
                     <div className="ChapterCard">
                         <div className="ChapterTitle">Lorem Ipsum</div>
