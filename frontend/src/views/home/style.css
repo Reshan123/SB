@@ -91,3 +91,63 @@
     border: none;
     /* border-radius: 8px; */
 }
+
+
+
+
+
+.Chapters{
+    padding: 100px 0 150px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;   
+}
+
+.Chapters .ChaptersTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Chapters .ChaptersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard{
+    width: 20vw;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 5px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard:hover{
+    background: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: #0000007b 5px 8px 10px
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapterTitle{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.Chapters .ChaptersContainer .ChapterCard img{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgb(203, 203, 203);
+    padding: 25px 35px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapeterDescription{
+    font-size: .8rem;
+    text-align: justify;
+}

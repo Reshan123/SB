@@ -1,6 +1,7 @@
 import './style.css'
 import { NavLink } from 'react-router-dom';
-import Logo from '../../images/IEEElogo.png'
+import IEEE from '../../images/logos/IEEE.png'
+
 
 const Navbar = ({home , aboutus , communityDetails , events , contactUs , gallery , login, news, upcomingEvents, pastEvents}) => {
     
@@ -13,13 +14,14 @@ const Navbar = ({home , aboutus , communityDetails , events , contactUs , galler
 
     return ( 
         <nav>
-            <div className="navLogo"><img src={Logo} alt="" /></div>
+            <div className="navLogo"><img src={IEEE} alt="" /></div>
             <div className="navLinksContainer">
                 <div className="navLink"><NavLink to={ home }>Home</NavLink></div>
                 <div className="navLink"><NavLink to={ aboutus }>About Us</NavLink></div>
                 <div className="navLink"><NavLink to={ contactUs }>Contact Us</NavLink></div>
-                <div className="navLink"><NavLink to={ gallery }>Gallery</NavLink></div>
-                <div className="navLink"><NavLink to={ gallery }>Log In / Sign Up</NavLink></div>
+                <div className="navLink"><NavLink to={ communityDetails }>Community Details</NavLink></div>
+                {/* <div className="navLink"><NavLink to={ gallery }>Gallery</NavLink></div> */}
+                <div className="navLink"><NavLink to={ login }>Log In / Sign Up</NavLink></div>
             </div>
             <div className="navCollapsedNav" id='navBar'>
                 <div className="navCollapsedNavButton" onClick={buttonClick}>

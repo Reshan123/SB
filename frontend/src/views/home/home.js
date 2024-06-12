@@ -1,4 +1,11 @@
 import './style.css';
+import CS from '../../images/logos/CSYelllow.png'
+import EMBS from '../../images/logos/EMBS.png'
+import IAS from '../../images/logos/IAS.png'
+import IEEE from '../../images/logos/IEEE.png'
+import PES from '../../images/logos/PES.png'
+import RAS from '../../images/logos/RAS.png'
+import WIE from '../../images/logos/WIE.png'
 
 const Home = () => {
     return ( 
@@ -24,11 +31,48 @@ const Home = () => {
                 </div>    
             </div>
             <div className="Chapters">
+                <div className="ChaptersTitle">Chapters</div>
                 <div className="ChaptersContainer">
                     <div className="ChapterCard">
-                        <div className="ChapterTitle"></div>
-                        <div className="ChapterImage"></div>
-                        <div className="ChapeterDescription"></div>
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={IEEE} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={IEEE} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={WIE} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={EMBS} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={IAS} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={RAS} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
+                    </div>
+
+                    <div className="ChapterCard">
+                        <div className="ChapterTitle">Lorem Ipsum</div>
+                        <div className="ChapterImage"><img src={PES} alt="CS Logo" /></div>
+                        <div className="ChapeterDescription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</div>
                     </div>
                 </div>
             </div>

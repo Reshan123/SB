@@ -1,11 +1,12 @@
 import React from "react";
 import "./footer.css"; // Create a CSS file for styling
-import logo from "./img/logo.png";
+import IEEE from '../../images/logos/IEEEWhite.png'
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src={logo} alt="logo"></img>
+        <img src={IEEE} alt="logo"></img>
       </div>
       <br></br>
       <div className="footer-columns">
@@ -47,7 +48,7 @@ const Footer = () => {
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
-                stroke="currentColor"
+                stroke="white"
                 stroke-width="2"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -63,6 +64,7 @@ const Footer = () => {
                 x="0px"
                 y="0px"
                 width="25"
+                fill="white"
                 height="25"
                 viewBox="0 0 30 30"
               >
@@ -75,6 +77,7 @@ const Footer = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
                 y="0px"
+                fill="white"
                 width="25"
                 height="25"
                 viewBox="0 0 30 30"
@@ -89,6 +92,7 @@ const Footer = () => {
                 x="0px"
                 y="0px"
                 width="25"
+                fill="white"
                 height="25"
                 viewBox="0 0 50 50"
               >
@@ -107,6 +111,7 @@ const Footer = () => {
           x="0px"
           y="0px"
           width="30"
+          fill="white"
           height="30"
           viewBox="0 0 50 50"
           cursor="pointer"
@@ -120,6 +125,7 @@ const Footer = () => {
           y="0px"
           width="30"
           height="30"
+          fill="white"
           viewBox="0 0 50 50"
           cursor="pointer"
         >
@@ -130,6 +136,7 @@ const Footer = () => {
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
           y="0px"
+          fill="white"
           width="30"
           height="30"
           viewBox="0 0 50 50"

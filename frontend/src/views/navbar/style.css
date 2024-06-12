@@ -16,14 +16,14 @@ nav{
 }
 
 nav .navLogo{
-    width: 10%;
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav .navLogo img{
-    height: 90%;
-    margin-left: 20px;
+    width: 70%;
 }
 
 nav .navLinksContainer{
@@ -39,9 +39,13 @@ nav .navLinksContainer .navLink a{
 }
 
 nav .navLinksContainer .navLink:last-child{
-    background-color: #FFA300;
+    background-color: #00629b;
     border-radius: 55px;
     padding: 10px 15px;
+}
+
+nav .navLinksContainer .navLink:last-child a{
+    color: white;
 }
 
 

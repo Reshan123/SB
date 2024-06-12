@@ -5,20 +5,21 @@ import Navbar from './views/navbar/navbar';
 import Contactus from './views/contactus/contactus';
 import { About } from './views/Aboutus/About';
 import { Join } from './views/Joinus/Join';
+import Home from './views/home/home'
 import Footer from './views/Footer/Footer'
 
 function App() {
   return (
     <Router>
       
-      <Navbar home = "/" aboutus = "/" communityDetails = "/" events = "/" contactUs = "/contact-us" gallery = "/" login = "/" news="/" upcomingEvents="/" pastEvents="/"  />
+      <Navbar home = "/" aboutus = "/about" communityDetails = "/committee" events = "/" contactUs = "/contact-us" gallery = "/" login = "/" news="/" upcomingEvents="/" pastEvents="/"  />
       
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact-us" element={<Contactus />} />
         <Route path='/join' element={<Join />} />
         <Route path='/about' element={<About />} />
-        <Route path="/" element={<SBCommittee />} />
+        <Route path="/committee" element={<SBCommittee />} />
       
       </Routes>
       <Footer />
