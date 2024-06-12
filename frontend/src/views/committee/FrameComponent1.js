@@ -1,4 +1,5 @@
 import "./FrameComponent1.css";
+import image from '../../images/Committee_circ_back.png'
 
 const FrameComponent1 = () => {
   return (
@@ -10,7 +11,7 @@ const FrameComponent1 = () => {
             className="favpng-printed-circuit-board-e-icon"
             loading="eager"
             alt=""
-            src="/favpng-printedcircuitboardelectricalnetworkicon-1@2x.png"
+            src={image}
           />
         </div>
         <div className="committee-of-ieee-student-bran-parent">

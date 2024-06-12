@@ -364,19 +364,23 @@
     line-height: 1.63rem;
   }
   .vicechairpersonframe-item {
-    flex: 1;
-    width: 296px;
+
+    width: 18.559;
+    height: 18.559;
+
   }
   .vicechairpersonframe {
     
-    padding-left: 3.38rem;
+    padding: 2.56rem;
     box-sizing: border-box;
+    justify-content: space-between;
   }
   .groupframe {
     gap: 10rem;
   }
   .group-icon {
-    flex: 1;
+    width: 18.559;
+    height: 18.559;
   }
   .devni-dharmasooriya-secretary-container {
     font-size: 2rem;
@@ -403,6 +407,7 @@
     padding-bottom: 2.38rem;
     box-sizing: border-box;
   }
+
 }
 @media screen and (max-width: 750px) {
   .executive-committee {
@@ -467,10 +472,11 @@
     box-sizing: border-box;
     
   }.frame-inner{
-    padding-left: 38px;
-    padding-right: 38px;
+    bottom: 9rem;
     width: 15rem;
-    bottom: 8rem;
+    height: 15rem;
+    top: -162px;
+    padding: 0;
   }
   .f-r-a-m-e2 {
     gap: 7.81rem;
@@ -517,10 +523,14 @@
   }
   .vicechairpersonframe-item{
     bottom: 9rem;
-    width: 240px;
+    width: 15rem;
+    height: 15rem;
+    top: -162px;
   }.group-icon{
-    width: 240px;
-    bottom: 0.65rem;
+    bottom: 9rem;
+    width: 15rem;
+    height: 15rem;
+    top: 0;
   }
   .groupframe-parent {
     left: 0;
@@ -534,7 +544,9 @@
   }
   .f-r-a-m-e-inner {
     width: 15rem;
+    height: 15rem;
     bottom: 2rem;
+    top: 0;
 
   }
 }
@@ -612,11 +624,6 @@
     padding-bottom: 2.5rem;
     box-sizing: border-box;
     
-  }.frame-inner{
-    padding-left: 38px;
-    padding-right: 38px;
-    width: 15rem;
-    bottom: 8rem;
   }
   .f-r-a-m-e2 {
     gap: 7.81rem;
@@ -739,8 +746,7 @@
     box-sizing: border-box;
     
   }.frame-inner{
-    padding-left: 38px;
-    padding-right: 38px;
+
     width: 15rem;
     bottom: 8rem;
   }

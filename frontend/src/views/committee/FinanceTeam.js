@@ -29,7 +29,7 @@ const FinanceTeam = () => {
                 className="lead-pic-icon3"
                 loading="eager"
                 alt=""
-                src="/lead-pic.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="pasan-senarath-leader-container">
@@ -44,7 +44,7 @@ const FinanceTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src="/member.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="shanaya-pereira-member-container">
@@ -59,7 +59,7 @@ const FinanceTeam = () => {
                 className="member-icon8"
                 loading="eager"
                 alt=""
-                src="/member.svg"
+                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
               />
             </div>
             <b className="kavindri-perera-member-container1">
