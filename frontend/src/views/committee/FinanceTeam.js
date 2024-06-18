@@ -1,4 +1,6 @@
 import "./FinanceTeam.css";
+import maheshi from "../../images/committee members/Maheshi_Finance member - Maheshi De silva-modified.png"
+import shanaya from "../../images/committee members/BCFAFCC4-32CA-4740-BF96-F94B007A4479 - Shanaya Pereira-modified.png"
 
 const FinanceTeam = () => {
   return (
@@ -44,7 +46,7 @@ const FinanceTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={shanaya}
               />
             </div>
             <b className="shanaya-pereira-member-container">
@@ -59,11 +61,11 @@ const FinanceTeam = () => {
                 className="member-icon8"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={maheshi}
               />
             </div>
             <b className="kavindri-perera-member-container1">
-              <p className="kavindri-perera1">Kavindri Perera</p>
+              <p className="kavindri-perera1">Maheshi De Silva</p>
               <p className="member8">Member</p>
             </b>
           </div>

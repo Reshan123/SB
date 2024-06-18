@@ -1,4 +1,7 @@
 import "./MembershipDevTeam.css";
+import mahdy from "../../images/committee members/Mahdy_Sub Comittee Lead - Mahdy Abdullah-modified.png"
+import kavindri from "../../images/committee members/Kavindri Perera-modified.png"
+import owadi from  "../../images/committee members/Owadi_member - Owadi Bandara-modified.png"
 
 const MembershipDevTeam = () => {
   return (
@@ -28,7 +31,7 @@ const MembershipDevTeam = () => {
                   className="lead-pic-icon2"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={mahdy}
                 />
               </div>
               <b className="mahdy-abdullah-nawfar-container">
@@ -43,11 +46,11 @@ const MembershipDevTeam = () => {
                   className="member-icon5"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={owadi}
                 />
               </div>
               <b className="thiruni-bandara-member-container">
-                <p className="thiruni-bandara">Thiruni Bandara</p>
+                <p className="thiruni-bandara">Owadi Bandara</p>
                 <p className="member5">Member</p>
               </b>
             </div>
@@ -58,7 +61,7 @@ const MembershipDevTeam = () => {
                   className="member-icon6"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={kavindri}
                 />
               </div>
               <b className="kavindri-perera-member-container">

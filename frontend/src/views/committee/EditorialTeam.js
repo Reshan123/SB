@@ -1,4 +1,8 @@
 import "./EditorialTeam.css";
+import abiru from "../../images/committee members/FB_IMG_1676741899270 - Abiru Abayapala-modified.png";
+import tharindu from "../../images/committee members/Tharindu Bandara - BookOfPanda-modified.png";
+import chamindu from "../../images/committee members/dilneth-modified.png";
+import dasith from "../../images/committee members/Dasith_Editorial_Team_Member - Dasith Sathpura-modified.png"
 
 const EditorialTeam = () => {
   return (
@@ -29,7 +33,7 @@ const EditorialTeam = () => {
                 className="lead-pic-icon"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={abiru}
               />
             </div>
             <b className="abiru-abayapala-leader-container">
@@ -44,7 +48,7 @@ const EditorialTeam = () => {
                 className="member-icon"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={chamindu}
               />
             </div>
             <b className="chamindu-dilneth-member-container">
@@ -59,8 +63,7 @@ const EditorialTeam = () => {
                 className="member-icon1"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
-              />
+                src={dasith}              />
             </div>
             <b className="dasith-sathpura-member-container">
               <p className="dasith-sathpura">Dasith Sathpura</p>
@@ -74,7 +77,7 @@ const EditorialTeam = () => {
                 className="member-icon2"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={tharindu}
               />
             </div>
             <b className="tharindu-bandara-member-container">
