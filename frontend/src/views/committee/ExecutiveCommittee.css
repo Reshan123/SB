@@ -327,7 +327,7 @@
   align-items: center;
   justify-content: flex-start;
   padding: 2.88rem 2.88rem 5.63rem;
-  gap: 8.44rem;
+  gap: 6rem;
 }
 .m-e-m-b-e-r-s-h-i-p {
   align-self: stretch;
@@ -348,7 +348,7 @@
     box-sizing: border-box;
   }
   .rectangle-parent {
-    gap: 8.44rem;
+    gap: 6rem;
     padding: 1.88rem 1.44rem 8.63rem;
     box-sizing: border-box;
   }
@@ -406,6 +406,9 @@
     padding-top: 1.25rem;
     padding-bottom: 2.38rem;
     box-sizing: border-box;
+  }
+  .lorem-ipsum-dolor-container{
+    margin-top: 1rem;
   }
 
 }
@@ -496,7 +499,7 @@
     height: 480px;
   }
   .lorem-ipsum-dolor-container{
-
+    margin-top: 1rem;
     line-height: 1.75rem;
   }.lorem-ipsum-dolor-sit-amet-co-wrapper {
     padding-left: 0;

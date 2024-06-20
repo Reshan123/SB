@@ -209,7 +209,12 @@
 }
 @media screen and (max-width: 1200px) {
   .member-mithila {
-    flex-wrap: wrap;
+    gap: 3rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
   }
   .lorem-ipsum-dolor-sit-amet-co-parent {
     gap: 3.88rem;
@@ -219,6 +224,7 @@
   .membership-development-team {
     font-size: 2.13rem;
     line-height: 2rem;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 750px) {

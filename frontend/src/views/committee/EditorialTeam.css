@@ -286,6 +286,7 @@
   }
   .publicity-frame {
     margin: 0 auto;
+        gap: 3rem;
     grid-template-columns: repeat(2, minmax(219px, 380px));
   }
 }
