@@ -1,11 +1,14 @@
-import janith from "../../images/committee members/Janith_Sachintha-Volunteer_Management_Team_Lead - Janith Sachintha-modified.png"
+import janith from "../../images/committee members/Janith_Sachintha-Volunteer_Management_Team_Lead - Janith Sachintha-modified.png";
+import './VolunteerManagementTeam.css';
+import sandesh from "../../images/committee members/Sandesh Deshapriya_volunteer management team membe - Sandesh Deshapriya-modified.png";
+import charith from "../../images/committee members/Charith Yohan_Volunteer Management Team - Charith Yohan-modified.png";
 
 const VolunteerManagementTeam = () => {
     return (
         <div className="membership-development-team-fr">
       <div className="finance-container">
       <h3 className="membership-development-team">
-        Logistics Team
+        Volunteer Management Team
       </h3>
       </div>
       <div className="publicity-frame1">
@@ -44,11 +47,26 @@ const VolunteerManagementTeam = () => {
                 className="member-icon7"
                 loading="eager"
                 alt=""
-                src={himansa}
+                src={sandesh}
               />
             </div>
             <b className="shanaya-pereira-member-container">
-              <p className="shanaya-pereira">Himansa Perera</p>
+              <p className="shanaya-pereira">Sandesh Deshapriya</p>
+              <p className="member7">Member</p>
+            </b>
+          </div>
+          <div className="leader-frame1">
+            <div className="rectangle-parent9">
+              <div className="frame-child10" />
+              <img
+                className="member-icon7"
+                loading="eager"
+                alt=""
+                src={charith}
+              />
+            </div>
+            <b className="shanaya-pereira-member-container">
+              <p className="shanaya-pereira">Charith Yohan</p>
               <p className="member7">Member</p>
             </b>
           </div>
