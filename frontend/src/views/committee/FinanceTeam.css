@@ -69,7 +69,6 @@
   color: #ffa300;
 }
 .pasan-senarath-leader-container {
-  width: 14.31rem;
   position: relative;
   line-height: 0.75rem;
   text-transform: capitalize;
@@ -81,6 +80,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 1.31rem;
+  width: 25rem;
 }
 .frame-child10 {
   height: 18.5rem;
@@ -115,7 +115,6 @@
   color: #00b5e2;
 }
 .shanaya-pereira-member-container {
-  width: 14.81rem;
   height: 2.75rem;
   position: relative;
   line-height: 0.75rem;
@@ -123,7 +122,7 @@
   display: inline-block;
 }
 .leader-frame1 {
-  width: 19rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +161,6 @@
   color: #00b5e2;
 }
 .kavindri-perera-member-container1 {
-  width: 14.13rem;
   height: 2.75rem;
   position: relative;
   line-height: 0.75rem;
@@ -175,12 +173,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+}
+
+.leader-frame2{
+  width: 25rem;
   gap: 1.31rem;
 }
 .leader-frame-parent {
   flex-direction: row;
   align-items: flex-start;
-  gap: 4.56rem;
   max-width: 100%;
   text-align: center;
   font-size: 1.75rem;
@@ -204,7 +205,7 @@
   align-self: stretch;
   align-items: flex-start;
   box-sizing: border-box;
-  gap: 4.94rem;
+  gap: 3.5rem;
   text-align: center;
   font-size: 2.63rem;
   color: #ffa300;

@@ -56,27 +56,24 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.exploretext {
-  height: 3.56rem;
-  width: 100%;
-  position: absolute;
-  margin: 0 !important;
-  right: 0;
-  bottom: 0.19rem;
-  left: 0;
-  border-radius: 26px;
-  background-color: #ffa300;
-  z-index: 3;
-}
+
 .explore {
   flex: 1;
-  position: relative;
-  letter-spacing: 0.02em;
-  line-height: 5.14rem;
-  text-transform: capitalize;
+  font-size: 22pt;
+  background-color: #ffa300;
   font-weight: 500;
-  z-index: 4;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+  z-index: 20;
+  box-shadow: none;
+  color: #002b44;
+  border: none;          /* Remove the border */
+  outline: none;         /* Remove the outline */
+  cursor: pointer;       /* Add a pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Optional: add a smooth transition for background color */
 }
+
+
 .exploretext-parent {
   width: 12.44rem;
   margin: 0 !important;
