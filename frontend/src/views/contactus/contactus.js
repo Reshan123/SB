@@ -40,8 +40,10 @@ const Contactus = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <div className='ContactUs'>Contact us</div>
+      <div className="container">
+        
         <div className='QorR'>
+        <div className='topic'>Contact us</div>
           Any question or remarks? Just write us a message!
         </div>
 
@@ -225,6 +227,7 @@ const Contactus = () => {
               <img src={discord} className='discord' alt='discord' />
             </div>
           </div>
+        </div>
         </div>
       </form>
     </div>
