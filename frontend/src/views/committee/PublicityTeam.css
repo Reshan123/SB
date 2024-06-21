@@ -54,9 +54,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0 0.25rem 0 0;
   box-sizing: border-box;
-  gap: 2.56rem;
+  gap: 3.5rem;
   max-width: 100%;
 }
 .frame-child4 {
@@ -99,13 +98,12 @@
   display: inline-block;
 }
 .leadership-team {
-  width: 20.06rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: 1.31rem;
-  max-width: 100%;
+  width: 25rem;
 }
 .thiruni-member-child {
   height: 18.5rem;
@@ -148,13 +146,13 @@
   display: inline-block;
 }
 .mahdy-abdullah-nawfar-leader {
-  width: 20.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   gap: 1.31rem;
-  max-width: 100%;
+  width: 25rem;
 }
 .frame-child5 {
   height: 18.5rem;
@@ -196,14 +194,12 @@
   display: inline-block;
 }
 .mahdy-abdullah-nawfar-leader1 {
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   gap: 1.31rem;
-  min-width: 14.75rem;
-  max-width: 100%;
+  width: 25rem;
 }
 .membership-development-team-te,
 .membership-text,
@@ -211,13 +207,12 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-direction: row;
   max-width: 100%;
 }
 .membership-development-team-te {
-  flex: 1;
   flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1.94rem;
+  display: flex;
   justify-content: center;
 }
 .membership-text,
@@ -227,7 +222,6 @@
 .niumi-halmillawewa-leader {
   width: 75.5rem;
   flex-direction: row;
-  padding: 0 4.19rem;
   font-size: 1.75rem;
   color: #fff;
 }
@@ -246,8 +240,7 @@
 }
 @media screen and (max-width: 1200px) {
   .niumi-halmillawewa-leader {
-    padding-left: 2.06rem;
-    padding-right: 2.06rem;
+
     box-sizing: border-box;
   }
 }
@@ -259,6 +252,20 @@
   .publicity-team {
     font-size: 2.13rem;
     line-height: 1.75rem;
+  }
+  .niumi-halmillawewa-leader {
+
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .membership-development-team-te{
+    gap: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 @media screen and (max-width: 750px) {

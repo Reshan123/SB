@@ -1,4 +1,7 @@
 import "./PublicityTeam.css";
+import nilumi from "../../images/committee members/NIUMI HALMILLAWEWA_publicity lead - Niumi Halmillawewa-modified.png";
+import anjula from "../../images/committee members/Anjula - Publicity Team Member  - Anjula Hirimuthugoda-modified.png";
+import mithila from "../../images/committee members/Mithila Samarawickrama_Publicity Team Member - Mithila Samarawickrama-modified.png"
 
 const PublicityTeam = () => {
   return (
@@ -30,7 +33,7 @@ const PublicityTeam = () => {
                 className="lead-pic-icon1"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={nilumi}
               />
             </div>
             <b className="niumi-halmillawewa-leader-container">
@@ -45,7 +48,7 @@ const PublicityTeam = () => {
                 className="member-icon3"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={anjula}
               />
             </div>
             <b className="anjula-hirimuthugoda-member-container">
@@ -60,7 +63,7 @@ const PublicityTeam = () => {
                 className="member-icon4"
                 loading="eager"
                 alt=""
-                src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                src={mithila}
               />
             </div>
             <b className="mithila-samarawickrama-member-container">

@@ -5,6 +5,8 @@ import PublicityTeam from "../committee/PublicityTeam";
 import MembershipDevTeam from "../committee/MembershipDevTeam";
 import FinanceTeam from "../committee/FinanceTeam";
 import "./SBCommittee.css";
+import LogisticsTeam from "../committee/LogisticsTeam";
+import VolunteerManagementTeam from "./VolunteerManagementTeam";
 
 const SBCommittee = () => {
   return (
@@ -17,6 +19,8 @@ const SBCommittee = () => {
           <PublicityTeam />
           <MembershipDevTeam />
           <FinanceTeam />
+          <LogisticsTeam/>
+          <VolunteerManagementTeam/>
         </div>
       </section>
     </div>

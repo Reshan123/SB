@@ -1,7 +1,15 @@
-import "./FrameComponent1.css";
-import image from '../../images/Committee_circ_back.png'
+import React from 'react';
+import './FrameComponent1.css';
+import image from '../../images/Committee_circ_back.png';
 
 const FrameComponent1 = () => {
+  const scrollToSection = () => {
+    const section = document.getElementById('exec');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="f-r-a-m-e-wrapper">
       <div className="f-r-a-m-e">
@@ -21,8 +29,7 @@ const FrameComponent1 = () => {
             <p className="of-sliit">of SLIIT</p>
           </h1>
           <div className="exploretext-parent">
-            <div className="exploretext" />
-            <div className="explore">Explore</div>
+            <button className="explore" onClick={scrollToSection}>Explore</button>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@ import "./ExecutiveCommittee.css";
 
 const MEMBERSHIP = () => {
   return (
-    <section className="m-e-m-b-e-r-s-h-i-p">
+    <section className="m-e-m-b-e-r-s-h-i-p" id="exec">
       <div className="rectangle-parent">
         <div className="frame-child" />
         <div className="lorem-ipsum-dolor-sit-amet-co-wrapper">
