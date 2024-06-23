@@ -24,7 +24,7 @@ background-color : #ffa300;
 .Eh-video-container-news {
 position : relative;
 width : 100%;
-height : 50vh;
+height : 70vh;
 }
 .Eh-video-news {
 width : 100%;
@@ -48,10 +48,11 @@ width : 100%;
 height : 100%;
 padding: 0;
 margin: 0;
-background-image: url(../images/global-connections.jpg);
+background-image: url(./images/topimage.png);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+background-color: #00000036;
 }
 .Eh-content-news {
 position : absolute;
@@ -95,7 +96,7 @@ box-shadow : 0 4px 4px 0 rgb(0, 0, 0, 0.25);
 }
 .clmtopic-news {
 color : #000;
-fontFamily: 'Inter, sans-serif';
+font-family: 'Inter, sans-serif';
 font-size :30px;
 font-style : normal;
 font-weight : 700;
@@ -296,7 +297,7 @@ text-align : center;
 }
 @media (max-width: 991px) {
 .Eh-video-container-news {
-height : 56vh;
+
 }
 .Eh-video-news {
 height : 100%;
@@ -468,9 +469,20 @@ object-fit : cover;
 new css */
 
 #news_hero{
-    background-image: url(../images/global-connections.jpg);
+    background-image: url(./images/topimage.png);
     width: 100vw;
-    height: 400px;
+    height: 600px;
 
 
 }
+
+
+
+ #hero-container{
+
+  background-image: url("./images/herobg.png");
+  background-size: cover;
+  background-position: center;
+
+
+ }   
