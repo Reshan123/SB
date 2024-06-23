@@ -4,6 +4,8 @@ import SBCommittee from './views/committee/SBCommittee';
 import Navbar from './views/navbar/navbar';
 import Contactus from './views/contactus/contactus';
 import { About } from './views/Aboutus/About';
+import { Eventform } from './views/Events/Eventform';
+import { News } from './views/Events/News';
 import { Join } from './views/Joinus/Join';
 import Home from './views/home/home'
 import Footer from './views/Footer/Footer'

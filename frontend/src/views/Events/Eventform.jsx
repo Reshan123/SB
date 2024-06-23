@@ -60,13 +60,73 @@ export const Eventform = () => {
     }
   };
 
-  const handleImageChange = (e) => {
+  const handleImageChange = async (e) => {
     const files = Array.from(e.target.files).slice(0, 4);
+    const scaledImages = [];
+
+    for (const file of files) {
+      const reader = new FileReader();
+
+      const fileReadPromise = new Promise((resolve, reject) => {
+        reader.onload = async (event) => {
+          const img = new Image();
+          img.src = event.target.result;
+
+          img.onload = () => {
+            const canvas = document.createElement("canvas");
+            const ctx = canvas.getContext("2d");
+
+            // Calculate scaled dimensions while preserving aspect ratio
+            let width = img.width;
+            let height = img.height;
+            const aspectRatio = width / height;
+            const maxDimension = 500; // Maximum dimension (width or height)
+
+            if (width > maxDimension || height > maxDimension) {
+              if (aspectRatio > 1) {
+                width = maxDimension;
+                height = maxDimension / aspectRatio;
+              } else {
+                height = maxDimension;
+                width = maxDimension * aspectRatio;
+              }
+            }
+
+            // Set canvas dimensions
+            canvas.width = width;
+            canvas.height = height;
+
+            // Draw image on canvas with improved quality
+            ctx.drawImage(img, 0, 0, width, height);
+
+            // Convert canvas to blob with higher quality
+            canvas.toBlob(
+              (blob) => {
+                resolve(blob);
+              },
+              file.type,
+              1
+            ); // Set quality to 1 for maximum quality
+          };
+        };
+
+        reader.readAsDataURL(file);
+      });
+
+      const resizedImageBlob = await fileReadPromise;
+      const resizedImageFile = new File([resizedImageBlob], file.name, {
+        type: file.type,
+      });
+      scaledImages.push(resizedImageFile);
+    }
+
     setEventData((prevData) => ({
       ...prevData,
-      imageFiles: files,
+      imageFiles: scaledImages,
     }));
   };
+
+
 
   return (
     <div className='eventform'>
