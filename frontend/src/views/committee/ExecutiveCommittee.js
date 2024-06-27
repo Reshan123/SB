@@ -1,4 +1,7 @@
 import "./ExecutiveCommittee.css";
+import Yohan from "../../images/committee members/Yohan.png";
+import Pasan from "../../images/committee members/Pasan.png";
+import Prabasha from "../../images/committee members/Prabasha.png";
 
 const MEMBERSHIP = () => {
   return (
@@ -27,7 +30,7 @@ const MEMBERSHIP = () => {
                   className="f-r-a-m-e-inner"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={Yohan}
                 />
               </div>
               <div className="t-e-x-t">
@@ -46,7 +49,7 @@ const MEMBERSHIP = () => {
                   className="vicechairpersonframe-item"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={Prabasha}
                 />
               </div>
             </div>
@@ -57,7 +60,7 @@ const MEMBERSHIP = () => {
                   className="frame-inner"
                   loading="eager"
                   alt=""
-                  src="https://static-00.iconduck.com/assets.00/profile-circle-icon-2048x2048-cqe5466q.png"
+                  src={Pasan}
                 />
               </div>
               <div className="rectangle-container">
