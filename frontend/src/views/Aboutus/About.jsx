@@ -2,6 +2,9 @@ import React from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "./main.css"
+import lightImg from "./images/PNG/light.png";
+import missionImg from "./images/PNG/mission.png";
+import vissionImg from "./images/PNG/vission.png";
 
 export const About = () => {
   return (
@@ -12,7 +15,7 @@ export const About = () => {
           <h1 className="h_about">About Us</h1>
           <div className="main_content">
             <div className="main_c1">
-              <div className="image_1"></div>
+              <img src={lightImg} alt="mission" className="images" style={{"marginTop": "20%"}}/>
               <p>
                 IEEE is the world’s largest professional association dedicated
                 to advancing technological innovation and excellence for the
@@ -27,7 +30,7 @@ export const About = () => {
             </div>
             <div className="main_c2">
               <div className="sub_1">
-                
+                <img src={vissionImg} alt="mission" className="images"/>
                 <p>
                   OUR VISION is to be essential for the global technical
                   community and to technical professionals everywhere, and be
@@ -36,6 +39,7 @@ export const About = () => {
                 </p>
               </div>
               <div className="sub_1">
+                <img src={missionImg} alt="mission"  className="images"/>
                 <p>
                   MISSION of IEEE - IEEE’s core purpose is to foster
                   technological innovation and excellence for the benefit of
