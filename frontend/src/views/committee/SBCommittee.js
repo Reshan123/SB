@@ -7,6 +7,7 @@ import FinanceTeam from "../committee/FinanceTeam";
 import "./SBCommittee.css";
 import LogisticsTeam from "../committee/LogisticsTeam";
 import VolunteerManagementTeam from "./VolunteerManagementTeam";
+import CommitteeChairpersons from "./CommitteeChairpersons";
 
 const SBCommittee = () => {
   return (
@@ -15,6 +16,7 @@ const SBCommittee = () => {
       <ExecutiveCommittee />
       <section className="frame-section">
         <div className="frame-group">
+          <CommitteeChairpersons/>
           <EditorialTeam />
           <PublicityTeam />
           <MembershipDevTeam />
