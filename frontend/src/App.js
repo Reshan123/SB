@@ -2,18 +2,28 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import SBCommittee from './views/committee/SBCommittee';
 import Navbar from './views/navbar/navbar';
-import Home from './views/home/home';
-import Footer from './views/Footer/Footer';
+import Contactus from './views/contactus/contactus';
+import { About } from './views/Aboutus/About';
+import { Eventform } from './views/Events/Eventform';
+import { News } from './views/Events/News';
+import { Join } from './views/Joinus/Join';
+import Home from './views/home/home'
+import Footer from './views/Footer/Footer'
 
 function App() {
   return (
     <Router>
       
-      <Navbar home = "/" aboutus = "/" communityDetails = "/" events = "/" contactUs = "/" gallery = "/" login = "/" news="/" upcomingEvents="/" pastEvents="/"  />
+      <Navbar home = "/" aboutus = "/about" communityDetails = "/committee" events = "/" contactUs = "/contact-us" gallery = "/" login = "/" news="/news" upcomingEvents="/" pastEvents="/"  />
       
       <Routes>
-        <Route path="/" element={<SBCommittee />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contact-us" element={<Contactus />} />
+        <Route path='/join' element={<Join />} />
+        <Route path='/about' element={<About />} />
+        <Route path="/committee" element={<SBCommittee />} />
+        <Route path="/news" element={<News />} />
+
       
       </Routes>
       <Footer />
