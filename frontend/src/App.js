@@ -14,7 +14,7 @@ function App() {
   return (
     <Router>
       
-      <Navbar home = "/" aboutus = "/about" communityDetails = "/committee" events = "/" contactUs = "/contact-us" gallery = "/" login = "/" news="/" upcomingEvents="/" pastEvents="/"  />
+      <Navbar home = "/" aboutus = "/about" communityDetails = "/committee" events = "/" contactUs = "/contact-us" gallery = "/" login = "/" news="/news" upcomingEvents="/" pastEvents="/"  />
       
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +22,8 @@ function App() {
         <Route path='/join' element={<Join />} />
         <Route path='/about' element={<About />} />
         <Route path="/committee" element={<SBCommittee />} />
+        <Route path="/news" element={<News />} />
+
       
       </Routes>
       <Footer />

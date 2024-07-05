@@ -54,11 +54,13 @@ export const News = () => {
       <div
         style={{
           display: "flex",
-          height: "100vh",
-          width: "100vw",
+          height: "90vh",
+          width: "100%",
           padding: "40px",
           backgroundImage: `url(${heroimg})`,
-          backgroundPosition: "center",
+          backgroundPosition: "center -150px",
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
           flexDirection: "column",
         }}
       >

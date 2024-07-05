@@ -22,8 +22,9 @@ const Navbar = ({home , aboutus , communityDetails , events , contactUs , galler
                 <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ aboutus }>About Us</NavLink></div>
                 <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ contactUs }>Contact Us</NavLink></div>
                 <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ communityDetails }>Community Details</NavLink></div>
+                <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ news }>Events Page</NavLink></div>
                 {/* <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ gallery }>Gallery</NavLink></div> */}
-                <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ login }>Log In / Sign Up</NavLink></div>
+                {/* <div className="navLink"><NavLink onClick={() => {scrollToTop()}} to={ login }>Log In / Sign Up</NavLink></div> */}
             </div>
             <div className="navCollapsedNav" id='navBar'>
                 <div className="navCollapsedNavButton" onClick={buttonClick}>
