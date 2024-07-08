@@ -175,6 +175,42 @@
   background: linear-gradient(180deg, #00629b, rgba(0, 98, 155, 0));
   display: none;
 }
+.socialIcons{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: white;
+}
+.socialIcons2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: white;
+}
+.socialIcons3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: white;
+}
+.socialIcons4{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 15px;
+  margin-left: 5px;
+  color: white;
+}
 .frame-inner {
   height: 18.56rem;
   width: 18.56rem;
