@@ -24,9 +24,25 @@ const Contactus = () => {
 
   const handleSubmit = async e => {
     e.preventDefault();
-
-    console.log('Form Data:', formData);
-
+  
+    try {
+      const response = await fetch('http://localhost:8070/api/contactus', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        console.log('Form Data saved successfully');
+      } else {
+        console.error('Failed to save form data');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  
     setFormData({
       firstName: '',
       lastName: '',
@@ -36,9 +52,10 @@ const Contactus = () => {
       inquiry: '',
     });
   };
+  
 
   return (
-    <div>
+    <div className='final-class'>
       <form onSubmit={handleSubmit}>
       <div className="container">
         

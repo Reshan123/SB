@@ -1,24 +1,15 @@
-/* .Header{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background: url("../images/headerRobo.png") ,url(../images/headerBackground.png);
-    background-size: cover;
-    background-position: bottom -50px left 150px , center;
-    background-size: 900px , cover;
-    background-repeat: no-repeat;
-} */
 .Header{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-    background: url(../../images/headerBackground.png);
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(#0000006f, #00000099), url(../../images/headerBackground.png) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 .Header .HeaderText{
-    margin: auto;
-    width: 59%;
-    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,40 +19,19 @@
 }
 
 .Header .HeaderText .HeaderText1{
-    font-size: 2rem;
-    align-self: flex-start;
-    font-weight: 200;
-}
-
-.Header .HeaderText .HeaderText2{
-    font-size: 4.5rem;
-    font-weight: 400;
-    letter-spacing: 7px;
-}
-
-.Header .HeaderText .HeaderText3{
-    align-self: flex-end;
-    font-size: 4rem;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
-.Header .HeaderRobo{
-    position: absolute;
-    bottom: 0;
-    height: 84vh;
-    width: 70vw;
-    background: url("../../images/headerRobo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom -50px left 150px;
+.Header .HeaderText .HeaderText2{
+    letter-spacing: 5px;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .Header .HeaderJoinUs{
-    position: absolute;
-    top: 65vh;
-    right: 325px;
-
+    
 }
 
 .Header .HeaderJoinUs .HeaderJoinUsButton{
@@ -71,4 +41,113 @@
     background-color: white;
     color:#00629B;
     border-radius: 5px;
+}
+
+
+
+
+.WelcomeSection{
+    height: 95vh;
+    width: 100%;
+    background: url(../../images/Welcome.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText{
+    width: 35%;
+    margin: 0 55px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextHeading{
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1.1px;
+
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextPara{
+    width: 95%;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton{
+    align-self: flex-start;
+}
+
+.WelcomeSection .WelcomeSectionContent .WelcomeSectionText .WelcomeSectionTextButton button{
+    padding: 15px 55px;
+    background-color: white;
+    color: #000;
+    border: none;
+    /* border-radius: 8px; */
+}
+
+
+
+
+
+.Chapters{
+    padding: 100px 0 150px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;   
+}
+
+.Chapters .ChaptersTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.Chapters .ChaptersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard{
+    width: 20vw;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 5px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard:hover{
+    background: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: #0000007b 5px 8px 10px
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapterTitle{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.Chapters .ChaptersContainer .ChapterCard img{
+    width: 100%;
+    border-radius: 15px;
+    border: 2px solid rgb(203, 203, 203);
+    padding: 25px 35px;
+}
+
+.Chapters .ChaptersContainer .ChapterCard .ChapeterDescription{
+    font-size: .8rem;
+    text-align: justify;
 }
