@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
+.allAbout{
+  overflow-x: hidden;
+}
 .main_about {
   height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
   background-color: #00629b;
+  overflow-x: hidden;
 }
 /* .hero_about {
   flex: 0.7;
@@ -22,18 +26,19 @@
   flex-direction: column;
   background-color: white;
   height: auto;
-  gap: 25px;
 }
 
 .h_about {
   text-align: center;
+  font-weight: 600;
   flex: 0.1;
   color: #00629b;
-  margin-top: 1%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
 }
 .main_content {
-  gap: 10px;
+  gap: 20px;
   display: flex;
   flex-direction: row;
   flex: 4;
@@ -47,24 +52,23 @@
   flex: 1;
   flex-direction: column;
   background-color: #f2f2f2;
-  border-radius: 2px;
+  border-radius: 30px;
   
   align-items: center;
    
 }
 .main_c1 p {
   margin: 40px;
-  padding: 0 10% 0 10%;
 /* 
   font-size: 24px; */
   fontfamily: "Inter, sans-serif";
-  font-weight: 200;
-  color: #808080;
+  font-weight: 400;
+
   text-align: center;
  
 }
 .main_c2 {
-  gap: 10px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -76,15 +80,15 @@
   flex-direction: column;
   flex: 1;
   background-color: #f2f2f2;
-  border-radius: 5px;
-  padding: 0 10% 0 10%;
+  border-radius: 30px;
 }
 .sub_1 p {
   margin: 30px;
+  margin-inline: 50px;
   margin-bottom: 5%;
   fontfamily: "Inter, sans-serif";
-  font-weight: 200;
-  color: #808080;
+  font-weight: 400;
+  color: #2a2a2a;
   text-align: center;
 }
 
@@ -118,7 +122,6 @@
 @media (max-width: 768px) { /* You can adjust the max-width value as needed */
   .main_content {
     flex-direction: column; /* Change to column layout on mobile */
-    margin: 5%; /* Adjust margin for mobile */
   }
 }
 

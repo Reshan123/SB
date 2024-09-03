@@ -7,7 +7,7 @@ import cover from "./images/cover.png";
 
 export const About = () => {
   return (
-    <div>
+    <div className="allAbout">
       <div className="main_about">
         <img src={cover} alt="cover" className="image_1"  />
         <div className="content_about">
