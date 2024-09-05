@@ -97,7 +97,7 @@
 
 
 .Chapters{
-    padding: 100px 0 150px 0;
+    padding: 100px 0 100px 0;
     background: white;
     display: flex;
     flex-direction: column;
@@ -150,4 +150,73 @@
 .Chapters .ChaptersContainer .ChapterCard .ChapeterDescription{
     font-size: .8rem;
     text-align: justify;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .Header{
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Header .HeaderText{
+        text-align: center;        
+    }
+
+    .Header .HeaderText .HeaderText1{
+        font-size: 1.5rem;
+    }
+
+    .Header .HeaderText .HeaderText2{
+        font-size: 1.5rem;
+    }
+
+    .Header .HeaderJoinUs .HeaderJoinUsButton{
+        margin-top: 25px;
+        padding: 10px 35px;
+    }
+
+    .WelcomeSection{ 
+        height: 100vh;
+        /* background-position: center; */
+        background-size: cover;
+    }
+
+    .WelcomeSection .WelcomeSectionContent .WelcomeSectionText{
+        width: 100%;
+        margin: 0 auto;
+        padding: 25px 35px;
+        backdrop-filter: blur(25px);
+
+    }
+
+    .Chapters{
+        padding: 50px 0 50px 0;
+
+    }
+
+    .Chapters .ChaptersTitle{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .Chapters .ChaptersContainer{
+        grid-template-columns: 1fr; 
+        gap: 50px;
+        justify-items: center;
+    }
+
+    .Chapters .ChaptersContainer .ChapterCard{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
 }

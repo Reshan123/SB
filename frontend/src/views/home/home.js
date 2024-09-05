@@ -22,7 +22,7 @@ const Home = () => {
             <div className="WelcomeSection">
                 <div className="WelcomeSectionContent">
                     <div className="WelcomeSectionText">
-                        <div className="WelcomeSectionTextHeading">Welcome To IEEE Student Branch of SLIIT !</div>
+                        <div className="WelcomeSectionTextHeading">Welcome To IEEE Student Branch of SLIIT</div>
                         <div className="WelcomeSectionTextPara">Since our inception in 2011, It has been one of the most famous student chapters in Sri Lanka.
     Pioneering a variety of projects in a variety of fields, including technical projects and community service as our student members including seminars and career support workshops in science and technical areas and personal development programs to improve the productivity of their achievements.
                         </div>
