@@ -12,6 +12,7 @@
   background-color: #00629B;
   /* border: 2px solid black; */
   box-shadow: 0px 0px 5px 5px rgba(180, 180, 180, 0.6);
+  
 }
 .footer-logo {
   margin: auto;
@@ -30,6 +31,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .footer-ul{
@@ -72,6 +75,8 @@
 
 .footer-social-icons {
   text-align: center;
+  display: flex;
+    justify-content: center;
 }
 
 .footer-text {

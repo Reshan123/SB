@@ -2,6 +2,7 @@ import "./CommitteeChairpersons.css";
 
 const CommitteeChairpersons = () => {
     return (
+        <>
         <div className="membership-text">
             <div className="subcommittees-text">
                 <div className="publicity-team-frame">
@@ -117,6 +118,7 @@ const CommitteeChairpersons = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

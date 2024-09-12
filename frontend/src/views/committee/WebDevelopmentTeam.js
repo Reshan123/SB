@@ -27,7 +27,7 @@ const WebDevelopmentTeam = () => {
                             width: '60%',
                         }}>
                             <img src={teamPhoto} alt="Team" style={{
-                                width: '100%',
+                                width: '100%', borderRadius: '40px',
                             }} />
                         </div>
                     </div>
