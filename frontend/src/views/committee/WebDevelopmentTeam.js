@@ -1,4 +1,5 @@
 import teamPhoto from '../../images/committee members/teamPhoto.jpg'
+import teamPhoto2 from '../../images/committee members/teamPhoto2.jpg'
 
 const WebDevelopmentTeam = () => {
     return (
@@ -24,10 +25,10 @@ const WebDevelopmentTeam = () => {
                     </div>
                     <div className="lead-pic-member">
                         <div style={{
-                            width: '60%',
+                            width: '80%',
                         }}>
-                            <img src={teamPhoto} alt="Team" style={{
-                                width: '100%', borderRadius: '40px',
+                            <img src={teamPhoto2} alt="Team" style={{
+                                width: '100%', borderRadius: '40px', 
                             }} />
                         </div>
                     </div>
